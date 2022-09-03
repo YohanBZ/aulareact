@@ -5,14 +5,18 @@ export const Header = () => {
     <header>
       <ul>
         <li>
-          <a href="http://localhost:3000/" title="Home do Site">
-            Home
-          </a>
+          <button>
+            <a href="http://localhost:3000/" title="Home do Site">
+              Home
+            </a>
+          </button>
         </li>
         <li>
-          <a href="http://localhost:3000/Produtos" title="Produtos do Site">
-            Produtos
-          </a>
+          <button>
+            <a href="http://localhost:3000/Produtos" title="Produtos do Site">
+              Produtos
+            </a>
+          </button>
         </li>
       </ul>
     </header>
